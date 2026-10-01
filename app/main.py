@@ -22,3 +22,7 @@ app.include_router(routes_export.router, prefix="/api/export", tags=["Export"])
 @app.get("/api/health")
 def health_check():
     return {"success": True, "data": {"status": "ok"}, "error": None}
+
+@app.get("/")
+def read_root():
+    return {"message": "AI Study Buddy API is running!"}
