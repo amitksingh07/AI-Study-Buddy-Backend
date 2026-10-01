@@ -3,7 +3,7 @@ uvicorn
 pydantic
 pypdf
 python-docx
-google-generativeai
+google-genai
 python-multipart
 reportlab
 python-dotenv
